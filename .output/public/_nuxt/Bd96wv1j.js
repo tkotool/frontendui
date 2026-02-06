@@ -1,0 +1,1 @@
+import"#entry";const s=""+new URL("slide1.CgSet7j2.jpg",import.meta.url).href,r=""+new URL("slide2.CUe4Za_2.jpg",import.meta.url).href,t=""+new URL("slide3.DrQXmhHp.jpg",import.meta.url).href;export{r as a,t as b,s};

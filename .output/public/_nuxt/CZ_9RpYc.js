@@ -1,0 +1,1 @@
+import{_ as t}from"./Ba_nfmnx.js";import{_ as e}from"./CLonnyK8.js";import{e as n,i as _,f as a,o as s,w as c,b as r}from"#entry";const d=n({__name:"index",setup(m){const{layout:p}=_();return(i,u)=>{const o=t;return s(),a(o,null,{default:c(()=>[r(e)]),_:1})}}});export{d as _};
