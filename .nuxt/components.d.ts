@@ -15,8 +15,11 @@ type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}
 
 
 export const AuthRight: typeof import("../app/components/AuthRight.vue")['default']
+export const Footer: typeof import("../app/components/Footer.vue")['default']
+export const Header: typeof import("../app/components/Header.vue")['default']
 export const LanguageDropdown: typeof import("../app/components/LanguageDropdown.vue")['default']
 export const LogoBox: typeof import("../app/components/LogoBox.vue")['default']
+export const MobileMenu: typeof import("../app/components/MobileMenu.vue")['default']
 export const PageTitle: typeof import("../app/components/PageTitle.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
 export const NuxtLayout: typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -43,8 +46,11 @@ export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components/nuxt-island")['default']
 export const NuxtRouteAnnouncer: typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']
 export const LazyAuthRight: LazyComponent<typeof import("../app/components/AuthRight.vue")['default']>
+export const LazyFooter: LazyComponent<typeof import("../app/components/Footer.vue")['default']>
+export const LazyHeader: LazyComponent<typeof import("../app/components/Header.vue")['default']>
 export const LazyLanguageDropdown: LazyComponent<typeof import("../app/components/LanguageDropdown.vue")['default']>
 export const LazyLogoBox: LazyComponent<typeof import("../app/components/LogoBox.vue")['default']>
+export const LazyMobileMenu: LazyComponent<typeof import("../app/components/MobileMenu.vue")['default']>
 export const LazyPageTitle: LazyComponent<typeof import("../app/components/PageTitle.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
 export const LazyNuxtLayout: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>

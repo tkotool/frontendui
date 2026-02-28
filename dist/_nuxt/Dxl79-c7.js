@@ -1,0 +1,1 @@
+import{_ as t}from"./DIO4pdWM.js";import{_ as e}from"./83QqO8N7.js";import{e as n,m as _,k as a,o as s,w as c,b as r}from"#entry";const d=n({__name:"index",setup(m){const{layout:p}=_();return(i,u)=>{const o=t;return s(),a(o,null,{default:c(()=>[r(e)]),_:1})}}});export{d as _};

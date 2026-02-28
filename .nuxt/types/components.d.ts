@@ -15,8 +15,11 @@ type LazyComponent<T> = (T & DefineComponent<HydrationStrategies, {}, {}, {}, {}
 
 interface _GlobalComponents {
       'AuthRight': typeof import("../../app/components/AuthRight.vue")['default']
+    'Footer': typeof import("../../app/components/Footer.vue")['default']
+    'Header': typeof import("../../app/components/Header.vue")['default']
     'LanguageDropdown': typeof import("../../app/components/LanguageDropdown.vue")['default']
     'LogoBox': typeof import("../../app/components/LogoBox.vue")['default']
+    'MobileMenu': typeof import("../../app/components/MobileMenu.vue")['default']
     'PageTitle': typeof import("../../app/components/PageTitle.vue")['default']
     'NuxtWelcome': typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
     'NuxtLayout': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']
@@ -43,8 +46,11 @@ interface _GlobalComponents {
     'NuxtIsland': typeof import("../../node_modules/nuxt/dist/app/components/nuxt-island")['default']
     'NuxtRouteAnnouncer': typeof import("../../node_modules/nuxt/dist/app/components/server-placeholder")['default']
       'LazyAuthRight': LazyComponent<typeof import("../../app/components/AuthRight.vue")['default']>
+    'LazyFooter': LazyComponent<typeof import("../../app/components/Footer.vue")['default']>
+    'LazyHeader': LazyComponent<typeof import("../../app/components/Header.vue")['default']>
     'LazyLanguageDropdown': LazyComponent<typeof import("../../app/components/LanguageDropdown.vue")['default']>
     'LazyLogoBox': LazyComponent<typeof import("../../app/components/LogoBox.vue")['default']>
+    'LazyMobileMenu': LazyComponent<typeof import("../../app/components/MobileMenu.vue")['default']>
     'LazyPageTitle': LazyComponent<typeof import("../../app/components/PageTitle.vue")['default']>
     'LazyNuxtWelcome': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
     'LazyNuxtLayout': LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/nuxt-layout")['default']>
